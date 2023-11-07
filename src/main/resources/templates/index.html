@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org/">
-<head th:replace="fragments :: head">
-</head>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}"></head>
 <body>
 
-<div th:replace="fragments :: page-header"></div>
+<nav th:replace="~{fragments :: page-header}"></nav>
 
 <div class="container body-content">
   <h2>TechJobs</h2>
